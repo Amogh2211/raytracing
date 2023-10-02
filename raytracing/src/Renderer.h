@@ -10,6 +10,7 @@
 class Renderer {
 public:
 	struct Settings {
+		bool SlowRandom = true;
 		bool Accumulate = true; // To check if accumulation is happening or no
 	};
 
